@@ -1,4 +1,4 @@
 # Texanshealth
-#Final project
+GWC SIP at JPMorgan-Chase, Houston 2019
 
-#Home
+Final Project by Deborah, Ahlena, and Claire
