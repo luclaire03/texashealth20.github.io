@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+}
+
+ul.dashed {
+  list-style-type: none;
+  line-height: 1.4
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+body {
+  font-size: 120%;
+}
