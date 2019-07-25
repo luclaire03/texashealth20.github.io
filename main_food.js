@@ -1,4 +1,4 @@
-// alert("hey");
+alert("hey");
 
 var slideIndex = 1;
 showDivs(slideIndex);
