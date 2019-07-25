@@ -20,7 +20,7 @@ ul {
   margin: 0;
 }
 
-ul.dashed {
+.dashed {
   list-style-type: none;
   line-height: 1.4
 }
