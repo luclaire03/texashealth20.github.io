@@ -8,11 +8,12 @@
   top: 0;
   width: 100%;
   border: 1px solid #e7e7e7;
+  position: sticky;
+  top: 10;
 }
 
 .links {
   float: left;
-  border-right: 1px solid #e7e7e7;
 }
 
 .links a {
