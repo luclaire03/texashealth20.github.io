@@ -16,13 +16,10 @@ h3 {
   font-size: 120%;
 }
 
-ul {
-  margin: 0;
-}
-
 .dashed {
   list-style-type: none;
-  line-height: 1.4
+  line-height: 1.4;
+  margin: 0
 }
 ul.dashed > li {
   text-indent: -5px;
@@ -33,7 +30,7 @@ ul.dashed > li:before {
   text-indent: -5px;
 }
 
-li {
+li.store {
   margin: 10px 0;
 }
 
