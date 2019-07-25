@@ -7,7 +7,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  border: 2px solid #e7e7e7;
+  border: 1px solid #e7e7e7;
 }
 
 .links {
@@ -23,6 +23,11 @@
   text-decoration: none;
 }
 
-.links a:hover {
+.links a:hover:not(.active) {
   background-color: #e7e7e7;
 }
+
+/* .links a.active {
+  background-color: #ffcfcf;
+  color: red;
+} */
