@@ -19,7 +19,7 @@
 
 .links a {
   display: block;
-  color: blue;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -29,13 +29,14 @@
   background-color: #e7e7e7;
 }
 
-/* .links a.active {
+.active {
   background-color: #ffcfcf;
   color: red;
-} */
+}
 
 .logo {
   font-size: 35px;
   font-weight: bold;
   text-align: left;
+  z-index: 20;
 }
