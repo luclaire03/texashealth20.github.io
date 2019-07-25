@@ -1,10 +1,19 @@
-
 h1 {
   text-align: center;
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 175%;
 }
 
 h3 {
   text-align: center;
+  font-size: 150%;
+}
+
+#stores {
+  font-size: 120%;
 }
 
 ul {
@@ -18,6 +27,7 @@ ul.dashed {
 ul.dashed > li {
   text-indent: -5px;
 }
+
 ul.dashed > li:before {
   content: "- ";
   text-indent: -5px;
@@ -25,11 +35,6 @@ ul.dashed > li:before {
 
 li {
   margin: 10px 0;
-}
-
-
-body {
-  font-size: 120%;
 }
 
 .center {
