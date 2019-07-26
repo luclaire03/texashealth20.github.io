@@ -14,7 +14,19 @@ app.config(function($routeProvider) {
     templateUrl : 'got_food.html',
     controller  : 'GFController'
   })
-  .otherwise({redirectTo: '/'});
+  // .otherwise({redirectTo: '/'});
+  .when('/top', {
+    templateUrl : 'recipes#top',
+  })
+  .when('/middle', {
+    templateUrl : 'recipes#middle',
+  })
+  .when('/end', {
+    templateUrl : 'recipes#end',
+  })
+  .when('/end2', {
+    templateUrl : 'recipes#end2',
+  })
 });
 
 app.controller('HomeController', function($scope, $http) {
