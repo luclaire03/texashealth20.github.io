@@ -7,26 +7,12 @@ app.config(function($routeProvider) {
     controller  : 'HomeController'
   })
   .when('/recipes', {
-    templateUrl : 'recipes.html',
-    controller  : 'RecipeController'
+    templateUrl : 'recipes.html'
   })
   .when('/gotfood', {
-    templateUrl : 'got_food.html',
-    controller  : 'GFController'
+    templateUrl : 'got_food.html'
   })
-  // .otherwise({redirectTo: '/'});
-  .when('/top', {
-    templateUrl : 'recipes#top',
-  })
-  .when('/middle', {
-    templateUrl : 'recipes#middle',
-  })
-  .when('/end', {
-    templateUrl : 'recipes#end',
-  })
-  .when('/end2', {
-    templateUrl : 'recipes#end2',
-  })
+  .otherwise({redirectTo: '/'});
 });
 
 app.controller('HomeController', function($scope, $http) {
