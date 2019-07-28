@@ -75,15 +75,12 @@ html {
 
 
 
-table, th, td {
+table {
   border: 1px solid white;
   text-align: center;
   vertical-align: middle;
   height: 50px;
   table-layout: fixed;
+  width: 100%;
 
-}
-
-tr {
-  max-width: 100%;
 }
