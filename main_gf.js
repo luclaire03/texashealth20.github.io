@@ -3,25 +3,41 @@
 // https://developers.google.com/maps/documentation/javascript/get-api-key#get-an-api-key
 // https://developers.google.com/maps/documentation/javascript/places
 var slideIndex = 1;
-showSlides(slideIndex);
+var slides     = null;
+
+function loadSlides() {
+  slides = document.getElementsByClassName("mySlides");
+
+  if (slides == null || slides.length ==0) {
+    console.log("slides not found");
+  }
+  else {
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+  }
+}
 
 // Next/previous controls
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  loadSlides();
+  if (n==1 && slideIndex < slides.length) {
+    slideIndex++;
+  }
+  else if (n==-1 && slideIndex > 1) {
+    slideIndex--;
+  }
+  else {
+    console.log("slide index out of range");
+  }
+  showSlide();
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide() {
+  return(slideIndex);
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
+function showSlide() {
   slides[slideIndex-1].style.display = "block";
 }

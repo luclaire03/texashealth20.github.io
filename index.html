@@ -6,6 +6,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
   <script src="main_gf.js"></script>
+  <script src="web.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -18,8 +19,7 @@
     <li class="links"><a href="#/recipes">Recipes</a></li>
     <li class="links"><a href="#/gotfood">Got Food?</a></li>
   </ul>
-  <div ng-view></div>
-  <script src="web.js"></script>
+  <div ng-view onload="onViewLoad()"></div>
 </body>
 
 </html>

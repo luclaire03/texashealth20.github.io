@@ -3,18 +3,21 @@ var app = angular.module('myApp', ['ngRoute']);
 app.config(function($routeProvider) {
   $routeProvider
   .when('/', {
-    templateUrl : 'food.html',
-    controller  : 'HomeController'
+    templateUrl : 'food.html'
   })
   .when('/recipes', {
     templateUrl : 'recipes.html'
   })
   .when('/gotfood', {
-    templateUrl : 'got_food.html'
+    templateUrl : 'got_food.html',
+    controller  : 'GotfoodController'
   })
   .otherwise({redirectTo: '/'});
 });
 
-app.controller('HomeController', function($scope, $http) {
-  $scope.message = 'Hello from HomeController';
+app.controller('GotfoodController', function($scope) {
+  $scope.onViewLoad = function() {
+    loadSlides();
+    showSlide(currentSlide());
+  }
 });
