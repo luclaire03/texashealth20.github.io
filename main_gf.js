@@ -41,3 +41,25 @@ function currentSlide() {
 function showSlide() {
   slides[slideIndex-1].style.display = "block";
 }
+
+/* center the google maps on user's geolocation */
+// function getLocation(position) {
+//     var latitude = position.coords.latitude;
+//     var longitude = position.coords.longitude;
+//     if (!map) {
+//         showMap(latitude, longitude);
+//     }
+// }
+//
+// function showMap(lat, long) {
+//     var googleLatLong = new google.maps.LatLng(lat, long);
+//     var mapOptions = {
+//         zoom: 12,
+//         center: googleLatLong,
+//         mapTypeId: google.maps.MapTypeId.ROADMAP
+//     };
+//     var mapDiv = document.getElementById("map");
+//     map = new google.maps.Map(mapDiv, mapOptions);
+//     map.panTo(googleLatLong);
+// }
+
