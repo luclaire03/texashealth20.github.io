@@ -13,7 +13,6 @@
   position: sticky;
   top: 10;
   z-index: 10;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .links {
@@ -26,6 +25,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .links a:hover:not(.active) {
