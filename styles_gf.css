@@ -1,7 +1,6 @@
 h1 {
   text-align: center;
-  font-size: 500%;
-  font-family: 'Jacques Francois Shadow', cursive;
+  font-size: 200%;
 }
 
 h2 {
@@ -13,8 +12,16 @@ h3 {
   font-size: 150%;
 }
 
+p {
+  font-size: 120%;
+}
+
 #stores {
   font-size: 120%;
+  float: right;
+  border: 3px solid black;
+  margin-right: 10%;
+  margin-top: 3%;
 }
 
 .dashed {
@@ -22,6 +29,7 @@ h3 {
   line-height: 1.4;
   margin: 0
 }
+
 ul.dashed > li {
   text-indent: -5px;
 }
@@ -32,7 +40,7 @@ ul.dashed > li:before {
 }
 
 li.store {
-  margin: 10px 0;
+  margin: 5px 18px 5px 0px;
 }
 
 .center {
