@@ -108,6 +108,14 @@ table, th, td {
 
 }
 
+#text1{
+  border: none;
+  padding: 25px;
+  background: url(foodbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px;
 
+
+}
 
 
