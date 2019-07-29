@@ -12,4 +12,7 @@ background-color: black;
 .texas-main {
   position: relative;
 }
-
+  
+body {
+  padding: 2%;
+}
