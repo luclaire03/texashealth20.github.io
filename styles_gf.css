@@ -20,6 +20,10 @@ p {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+body {
+  padding: 2%;
+}
+
 #stores {
   font-size: 120%;
   float: right;
