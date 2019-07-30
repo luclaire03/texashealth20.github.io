@@ -42,6 +42,8 @@
 
 /* footer styling */
 footer {
+  clear: both;
+  margin-top: 25em;
   position: relative;
   left: 0;
   bottom: 0;
@@ -54,6 +56,6 @@ footer {
   border-radius: 2px;
 }
 
-p {
+p.foot {
   font-family: 'Josefin Sans', sans-serif;
 }
