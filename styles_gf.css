@@ -59,6 +59,13 @@ li.store {
   margin-right:auto;
   width: 50%;
 }
+#text2 {
+  border: none;
+  padding: 25px;
+  background: url(foodbackground2.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px;
+}
 
 /* --- SLIDESHOW FORMATTING --- */
 * {box-sizing:border-box}
