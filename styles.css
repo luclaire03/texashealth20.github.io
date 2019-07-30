@@ -29,12 +29,7 @@
 }
 
 .links a:hover:not(.active) {
-  color: #738290;
-}
-
-.active {
-  background-color: #ffcfcf;
-  color: red;
+  color: white;
 }
 
 .logo {
