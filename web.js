@@ -19,6 +19,6 @@ app.controller('GotfoodController', function($scope) {
   $scope.onViewLoad = function() {
     loadSlides();
     showSlide(currentSlide());
-    initAutocomplete();
+//     initAutocomplete();
   }
 });
