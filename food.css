@@ -1,16 +1,16 @@
 h1{
   font-size: 50px;
  font-family: 'Jacques Francois Shadow', cursive;
-  top: 50%;
-  left: 60%;
+  top: 70%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
   
 .caption-texas {
 
 position: absolute;
-top: 30%;
-left: 70%;
+top: 50%;
+left: 50%;
 transform: translate(-50%, -50%);
 font-size: 20px;
 
