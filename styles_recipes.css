@@ -109,7 +109,7 @@ table, th, td {
   text-align: center;
   vertical-align: middle;
   height: 50px;
-  width: 415px;
+  width: 100%;
   table-layout: fixed;
   font-size: 20px;
 
@@ -123,6 +123,12 @@ table, th, td {
   background-size: 1500px 1000px;
 
 
+}
+
+@media only screen and (max-width: 768px) {
+  table, th, td {
+    font-size: 15px;
+  }
 }
 
 
