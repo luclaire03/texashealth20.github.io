@@ -29,7 +29,7 @@
 }
 
 .links a:hover:not(.active) {
-  color: white;
+  color: #ff9c33;
 }
 
 .logo {
