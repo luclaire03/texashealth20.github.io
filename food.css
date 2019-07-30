@@ -5,8 +5,8 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 font-size: 50px;
-color:white;
-background-color: black;
+color:black;
+}
 
 
 .texas-main {
