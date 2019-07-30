@@ -41,7 +41,7 @@
 }
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -50,4 +50,5 @@ footer {
   color: black;
   border: 5px black;
   border-style: double;
+  border-radius: 2px;
 }
