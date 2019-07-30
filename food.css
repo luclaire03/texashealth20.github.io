@@ -24,3 +24,9 @@ font-size: 20px;
 #text {
   padding: 2%;
 }
+
+@media only screen and (max-width: 768px) {
+  /* make font size smaller */
+  /* make border slimmer */
+  /* make width smaller? */
+}
