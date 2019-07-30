@@ -21,6 +21,13 @@ font-family: 'Josefin Sans', sans-serif;
 padding: 2%;
 }
 
+.click{
+  width: 100px;
+  border-style:solid;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100%;
+}  
+
 #myBtn {
   display: none;
   position: fixed;
