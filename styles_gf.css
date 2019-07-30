@@ -34,7 +34,7 @@ p {
 }
 
 /* --- SEARCHABLE MAP STYLING --- */
-#map {
+/* #map {
   height: 100%;
 }
 
@@ -100,7 +100,7 @@ p {
 
 #target {
   width: 345px;
-}
+} */
 
 .dashed {
   list-style-type: none;
