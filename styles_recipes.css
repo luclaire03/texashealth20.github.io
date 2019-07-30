@@ -52,6 +52,8 @@ padding: 2%;
 
 html {
  scroll-behavior: smooth;
+ max-width: 100%;
+ overflow-x: hidden;
 }
 
 
@@ -136,5 +138,9 @@ table, th, td {
   }
   h2 {
     font-size: 40px;
+  }
+  #myBtn {
+    padding: 10px;
+    font-size: 20px;
   }
 }
