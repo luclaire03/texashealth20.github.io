@@ -15,7 +15,7 @@ h3 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-p {
+p.gf {
   font-size: 120%;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -202,25 +202,26 @@ li.store {
   top: 0;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px and max-height: 225px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+    }
+  h3 {
+    font-size: 25px;
+  }
+  p.gf {
+    font-size: 20px;
+  }
+  #stores {
+    font-size: 15px;
+    float: center;
+  }
+  li.store {
+    margin: 5px 10px 5px 0px;
+  }
 }
