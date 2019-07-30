@@ -68,7 +68,7 @@ html {
   background-color:skyblue;
   box-shadow:8px 8px 8px gray;
   margin:10px;
-  font-family:"lato", serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .menu a:activate{
   background-color:green;
