@@ -2,7 +2,8 @@ h1{
   font-size: 50px;
  font-family: 'Jacques Francois Shadow', cursive;
   top: 70%;
-  left: 50%;
+/*   left: 50%; */
+  float: center;
 }
   
 .caption-texas {
