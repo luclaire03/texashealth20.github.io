@@ -42,6 +42,7 @@ padding: 2%;
   cursor: pointer;
   padding: 15px;
   scroll-behavior: smooth;
+  border-radius: 2px;
 }
 
 #myBtn:hover {
