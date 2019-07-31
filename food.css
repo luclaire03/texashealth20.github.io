@@ -1,8 +1,9 @@
 h2{
   font-size: 50px;
  font-family: 'Jacques Francois Shadow', cursive;
-  top: 50%;
-  left: 50%;
+ position: relative;
+ bottom: 20px;
+  
   
 }
   
