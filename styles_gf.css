@@ -34,6 +34,10 @@ p.gf {
   width: 450px;
 }
 
+#desc {
+  background-color: white;
+}
+
 /* --- SEARCHABLE MAP STYLING --- */
 #map {
   height: 440px;
