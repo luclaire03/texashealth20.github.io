@@ -72,12 +72,22 @@ function showSlide() {
 // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 
 function initAutocomplete() {
+  var geocoder = new google.maps.Geocoder();
+
   var map = new google.maps.Map(document.getElementById('map'), {
     /* coordinates of Texas */
     center: {lat: 31.9686, lng: 99.9018},
     zoom: 13,
     mapTypeId: 'roadmap'
   });
+
+  geocoder.geocode({'address': 'Houston'}, function(results, status) {
+    if (status == 'OK') {
+      map.setCenter(results[0].geometry.location);
+    } else {
+      console.log("Geocode could not find Houston: " + status);
+    }
+  }
 
   // Create the search box and link it to the UI element.
   var input = document.getElementById('pac-input');
