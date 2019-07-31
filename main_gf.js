@@ -87,7 +87,7 @@ function initAutocomplete() {
     } else {
       console.log("Geocode could not find Houston: " + status);
     }
-  }
+  });
 
   // Create the search box and link it to the UI element.
   var input = document.getElementById('pac-input');
