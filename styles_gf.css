@@ -213,6 +213,8 @@ li.store {
   #stores {
     max-width: 100%;
     margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
