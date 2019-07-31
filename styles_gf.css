@@ -243,5 +243,6 @@ li.store {
 @media only screen and (max-width: 1440px) {
   #stores {
     float: right;
+    margin-right: 8%;
   }
 }
