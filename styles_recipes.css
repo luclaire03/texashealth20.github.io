@@ -22,6 +22,10 @@ font-family: 'Josefin Sans', sans-serif;
 padding: 2%;
 }
 
+#desc {
+  background-color: white;
+}
+
 .click{
   width: 100px;
   border-style:solid;
