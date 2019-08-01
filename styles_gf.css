@@ -231,7 +231,25 @@ li.store {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 425px) {
+  #stores {
+    font-size: 18px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+  #map {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #pac-input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   h1 {
     font-size: 60px;
   }
@@ -242,8 +260,8 @@ li.store {
     font-size: 20px;
   }
   #stores {
-    font-size: 15px;
-    max-width: 100%;
+    font-size: 18px;
+    width: 630px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
@@ -253,8 +271,15 @@ li.store {
     margin-left: auto;
     margin-right: auto;
   }
+  ul.dashed {
+    margin-left: auto;
+    margin-right: auto;
+  }
   li.store {
-    margin: 5px 10px 5px 0px;
+    margin: 5px 0px 5px 0px;
+  }
+  #pac-input {
+    width: 370px;
   }
   .prev, .next,.text {font-size: 18px}
 }
