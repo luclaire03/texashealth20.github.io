@@ -1,7 +1,9 @@
-h1 {
+h1.gf {
   text-align: center;
   font-size: 500%;
   font-family: 'Jacques Francois Shadow', cursive;
+  background-color: white;
+  border: 2px solid black;
 }
 
 h2 {
@@ -13,6 +15,7 @@ h3 {
   text-align: center;
   font-size: 150%;
   font-family: 'Josefin Sans', sans-serif;
+  /* border: 1px solid black;  */
 }
 
 p.gf {
@@ -97,7 +100,7 @@ p.gf {
   margin-left: 12px;
   padding: 0 11px 0 13px;
   text-overflow: ellipsis;
-  width: 400px;
+  width: 325px;
 }
 
 #pac-input:focus {
@@ -211,10 +214,20 @@ li.store {
 
 @media only screen and (max-width: 375px){
   #stores {
-    max-width: 100%;
+    width: 325px;
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
+  }
+  #description {
+    font-weight: 0;
+  }
+  ul.dashed {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #pac-input {
+    width: 150px;
   }
 }
 

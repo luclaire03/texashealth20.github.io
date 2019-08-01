@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
 }
-h1{
+h1.desc{
     text-align: center;
     color:black;
     font-family: 'Jacques Francois Shadow', cursive;
+    background-color: white;
+    border: 2px solid black;
 }
 h2{
     text-align: left;
@@ -131,10 +133,6 @@ table, th, td {
   background-size: 1500px 1000px;
 
 
-}
-
-.desc {
-  background-color: white;
 }
 
 @media only screen and (max-width: 768px) {
