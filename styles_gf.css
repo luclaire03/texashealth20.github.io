@@ -217,7 +217,7 @@ li.store {
     width: 325px;
     margin-bottom: 5%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
   }
   #description {
     font-weight: 0;
@@ -231,7 +231,7 @@ li.store {
   }
 }
 
-@media only screen and (max-width: 425px) {
+/* @media only screen and (min-width: 380px) and (max-width: 425px) {
   #stores {
     font-size: 18px;
     width: 380px;
@@ -247,9 +247,9 @@ li.store {
   #pac-input {
     width: 200px;
   }
-}
+} */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (min-width: 430px) and (max-width: 768px) {
   h1 {
     font-size: 60px;
   }
@@ -282,7 +282,7 @@ li.store {
     width: 370px;
   }
   .prev, .next,.text {font-size: 18px}
-}
+} */
 
 @media only screen and (max-width: 1440px) {
   #stores {
