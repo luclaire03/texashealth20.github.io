@@ -59,3 +59,10 @@ footer {
 p.foot {
   font-family: 'Josefin Sans', sans-serif;
 }
+
+@media only screen and (max-width: 375px) {
+  .navigation {
+    position: relative;
+    position: sticky;
+  }
+}
